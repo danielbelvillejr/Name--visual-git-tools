@@ -1,0 +1,20 @@
+Commit 1:
+Round checkout total to two decimals
+
+Files in this commit:
+checkout.py
+
+Summary:
+This commit changed the checkout calculation so the returned total is rounded to two decimal places.
+
+Commit 2:
+Document visual Git workflow
+
+Files in this commit:
+README.md
+
+Summary:
+This commit added documentation describing that the lab demonstrates visual Git workflows using GitHub Desktop.
+
+Why the changes were separated:
+The changes were committed separately because they serve different purposes. Keeping the checkout logic change separate from the documentation change makes the history easier to review and explain. It also makes it safer to undo one change without affecting the other.
