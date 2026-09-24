@@ -1,0 +1,11 @@
+Repository URL: https://github.com/danielbelvillejr/visual-git-tools
+
+Branches:
+main
+visual-tools
+
+Feature commit messages:
+Add checkout calculation script
+Document checkout calculation
+
+The initial README commit is shared by both main and visual-tools because visual-tools was created from main after that commit. The two checkout.py commits are unique to visual-tools because main has not been merged with the feature branch yet. HEAD is currently on visual-tools, and the visual-tools branch label points to the newest feature commit.
