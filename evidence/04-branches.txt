@@ -1,0 +1,22 @@
+Before merge:
+The current branch was main. The visual-tools branch had already been published to GitHub.
+
+Merge action:
+In GitHub Desktop, I used Branch > Merge into current branch and selected visual-tools as the source branch. Main was the target branch because it was the branch currently checked out.
+
+After merge:
+The commits from visual-tools appeared in the history of main. Main was then pushed to GitHub.
+
+Remote update:
+I edited README.md directly on GitHub and committed the change to main.
+
+Synchronization:
+Back in GitHub Desktop, I used Fetch origin and Pull origin to bring the remote README change into local main. The local README showed the new line after the pull, and the working tree was clean.
+
+Git concepts:
+Current branch identifies the branch HEAD is attached to.
+Publish branch creates the remote branch and pushes its commits.
+Fetch checks for remote updates.
+Pull downloads and integrates remote commits into the current branch.
+Merge combines the source branch into the current target branch.
+Push sends local commits to the remote repository.
