@@ -1,0 +1,14 @@
+Line under investigation:
+total = price * quantity
+
+Commit ID:
+[enter the commit ID shown in GitHub Desktop]
+
+Author/Date:
+[enter the author and date shown in GitHub Desktop]
+
+Commit message:
+Fix checkout calculation bug
+
+Interpretation:
+The previous commit changed the calculation from multiplication to addition, which would produce an incorrect checkout total. This commit changed the line back to multiplication, correcting the calculation and plausibly fixing the unexpected result.

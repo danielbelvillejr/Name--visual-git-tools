@@ -1,7 +1,8 @@
 # Calculates the total cost for a purchase
+
 def calculate_total(price, quantity):
     total = price * quantity
-    return total
+    return round(total, 2)
 
 
 print(calculate_total(12.50, 3))
